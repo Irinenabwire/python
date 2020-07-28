@@ -1,0 +1,12 @@
+#python 3.7.1
+#done by Irine, please live comment 
+import random
+print ("Check your covid 19 status")
+print("")
+print("")
+input("body temperature:")
+
+input("since when: ")
+percent=["60%","70%","80%","90%","100%"]
+precentage=random.choice(percent)
+print("Chance of having Covid-19 is",precentage)
